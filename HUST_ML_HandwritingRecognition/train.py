@@ -36,7 +36,7 @@ parser.add_argument('--lr', type=float, default=0.0005, help='learning rate')
 parser.add_argument('--valInterval', type=int, default = 5, help='Interval to be displayed')
 parser.add_argument('--saveInterval', type=int, default = 5, help='Interval to be displayed')
 opt = parser.parse_args()
-#duc
+#ducc
 random.seed(opt.manualSeed)
 np.random.seed(opt.manualSeed)
 torch.manual_seed(opt.manualSeed) # Comment lại để cho khởi tạo tham số ngẫu nhiên
