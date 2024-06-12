@@ -61,7 +61,7 @@ if __name__ == '__main__':
     model = CRNN(converter.numClass, opt.num_hidden, opt.dropout).to(device)
     criterion = torch.nn.CTCLoss().to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=opt.lr)
-
+# mmm
     trainer = Trainer(model, optimizer, criterion, converter, opt,
                       train_dataset,
                       val_dataset)
